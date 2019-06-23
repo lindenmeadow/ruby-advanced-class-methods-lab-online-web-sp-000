@@ -34,4 +34,10 @@ class Song
     @@all.find{|song| song.name == name}
     song
   end
+
+  def self.alphabetical
+    @all.sort
+  end
+
+  
 end
