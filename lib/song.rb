@@ -39,5 +39,7 @@ class Song
     @all.sort
   end
 
-
+  def self.destroy_all
+    @@all.clear
+  end
 end
